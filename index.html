@@ -10,39 +10,130 @@
 </head>
 <body>
 
-<div data-role="page" id="main" data-theme="a">
-	<div data-role="header">
-		<h1>Заголовок страницы</h1>
-	</div>
-	<div data-role="content">	
-		<p>Содержимое страницы</p>
-		<a href="#second">Вторая страница</a>
-	</div>
-	<div data-role="footer">
-		<h4>Подвал страницы</h4>
-	</div>
+<div data-role="page" id="home">
+	<header data-role="header"><h1>Подбор, шаг 1/5</h1></header>
+	<section data-role="content">
+		<h1>Как выбрать для себя тренировочную программу?</h1>
+		<p>Привет, «подполье». Денис Борисов обещал вам необычную книжонцию которая добавит больше понимания в ваши головы. Что ж... раз обещал, значит нужно выполнять. Представляю вашему вниманию один простенький алгоритм подбора тренировочной программы для новичков.</p>
+		<p><img src="images/denis.jpg"></p>
+		<p>Не судите строго, потому что цель сего труда была вовсе не в том, чтоб объяснить все возможные варианты тренировки или в том, чтоб, боже упаси, выбрать САМУЮ САМУЮ лучшую. Так не бывает в принципе.</p>
+		<p>Просто в какой то момент я понял, что почти ВСЕГДА тренера дают начинающим одну и ту же программу без строгого учета индивидуальных особенностей. Почему так? Да просто потому что никто до этого не пробовал строго систематизировать различные факторы влияющие на<br />
+		  выбор.</p>
+		<p>Поэтому, как то в один из теплых июньских вечеров, я решил попробовать это сделать и у меня получилась эта брошюрка. Она не подойдет опытным спортсменам. НО ее легко можно использовать начинающим.</p>
+		<p>Когда вы задумаете заняться своим телосложением в тренажерном зале, то одним из самых сложных вопросов для вас будет - выбор ПРАВИЛЬНОЙ тренировочной программы для подобных занятий.</p>
+		<p>Когда я говорю <strong>ПРАВИЛЬНОЙ</strong>, я имею введу такую тренировочную программу которая будет <strong>оптимальной именно для вас</strong>. Т.е. такой программы, которая приведет к максимально быстрому результату.</p>
+		<p>Все люди разные. Это является причиной огромного разнообразия тренировочных программ для занятий в тренажерном зале. Выбор оптимальной - задача не из простых, потому что нужно учитывать огромное количество параметров, разобраться в которых порой и опытному спортсмену не под силу. Поэтому я решил вам облегчить подобную задачу по максимуму.</p>
+		<p>С помощью этого приложения вы сможете подобрать эффективную программу именно для себя. Составляя алгоритм выбора, я учитывал прежде всего такие параметры, как <strong>ПОЛ, ВОЗРАСТ, ТРЕНИРОВАННОСТЬ и ГЕНЕТИКУ</strong>, потому что на мой взгляд, это основные четыре параметра, которыми нужно руководствоваться при выборе индивидуальной тренировочной программы.</p>
+		<p>Итак. Вы готовы? Тогда поехали!</p>
+		<p>Первый вопрос звучит так: </p>
+		<h2>ВЫ МУЖЧИНА ИЛИ ЖЕНЩИНА?</h2>
+		<p>
+			<a href="#man_what_age"   data-role="button" data-inline="true">Мужчина</a>
+			<a href="#woman_what_age" data-role="button" data-inline="true">Женщина</a>
+		</p>
+		<!-- <p>
+			<div data-role="controlgroup" data-type="horizontal">
+				<a href="#man"   data-role="button">Мужчина</a>
+				<a href="#woman" data-role="button">Женщина</a>
+			</div>
+		</p> -->
+
+	</section>
+	<!-- <footer data-role="footer">(с)</footer> -->
 </div>
- 
-<div data-role="page" id="second" data-add-back-btn="true" data-theme="b">
-	<div data-role="header" id="header">
-		<h1>Пример jQuery Mobile</h1>
-	</div>
-	<div data-role="content">	
-		<p>Пример мультистраничности</p>		
-	</div>
-	<div data-role="footer">
-		<h4>Copyright (c)</h4>
-	</div>
+
+<div data-role="page" id="man_what_age">
+	<header data-role="header"><h1>шаг 2/5</h1></header>
+	<section data-role="content">
+		<h1>Итак, вы МУЖЧИНА</h1>
+		<p> Это значительно сужает выбор.</p>
+		<p>Что ж: одна моя знакомая любили говорить что: все мужчины одинаковы. Только зарплата у них разная. Не знаю, как насчет всего остального, но в плане подбора тренировочной программы это совсем не так.</p>
+		<p>Все мужчины очень сильно отличаются уровнем своей физической подготовки и способностями организма «переваривать» физическую нагрузку.</p>
+		<p>И самым <strong>главным критерием</strong> оценки в этом плане является <strong>ВОЗРАСТ</strong>. Мальчишка не должен тренироваться по комплексам мужчин, а мужчина не должен тренироваться по комплексам мальчишек.</p>
+		<p>Поэтому следующий вопрос, который я вам задам будет:</p>
+		<h2>СКОЛЬКО ВАМ ЛЕТ?</h2>
+		<p>
+			<div data-role="controlgroup" data-type="horizontal">
+				<a href="#man11_what_train" data-role="button">11-14</a> 
+				<a href="#man15_what_train" data-role="button">15-18</a> 
+				<a href="#man19_what_train" data-role="button">19-28</a> 
+				<a href="#man29_what_train" data-role="button">29-39</a> 
+				<a href="#man40_what_train" data-role="button">40+</a>
+			</div>
+		</p>
+		<p><img src="images/arno.jpg"></p>
+	</section>
 </div>
+
+
+<!-- man 11 -->
+	<div data-role="page" id="man11_what_train">
+		<header data-role="header"><h1>шаг 3/5</h1></header>
+		<section data-role="content">
+			<h1></h1>
+
+			<div data-role="controlgroup" data-type="horizontal">
+				<a href="#man11_basic_what_gen" data-role="button">Пока не могу</a> 
+				<a href="#man11_adv_what_gen" data-role="button">Да, я это сделал</a> 
+			</div>
+		</section>
+	</div>
+	<div data-role="page" id="man11_basic_what_gen">
+		<header data-role="header"><h1>шаг 4/5</h1></header>
+		<section data-role="content">
+			<h1></h1>
+
+			<div data-role="controlgroup" data-type="horizontal">
+				<a href="#man11_basic_basic" data-role="button" data-transition="flip">Да, могу</a> 
+				<a href="#man11_basic_adv" data-role="button" data-transition="flip">Нет, пальцев не хватило</a> 
+			</div>
+		</section>
+	</div>
+	<div data-role="page" id="man11_adv_what_gen">
+		<header data-role="header"><h1>шаг 4/5</h1></header>
+		<section data-role="content">
+			<h1></h1>
+
+			<div data-role="controlgroup" data-type="horizontal">
+				<a href="#man11_adv_basic" data-role="button" data-transition="flip">Да, могу</a> 
+				<a href="#man11_adv_adv" data-role="button" data-transition="flip">Нет, пальцев не хватило</a> 
+			</div>
+		</section>
+	</div>
+	<div data-role="page" id="man11_basic_basic">
+		<header data-role="header"><h1>шаг 5/5</h1></header>
+		<section data-role="content">
+			<h1></h1>
+
+			
+		</section>
+	</div>
+	<div data-role="page" id="man11_basic_adv">
+		<header data-role="header"><h1>шаг 5/5</h1></header>
+		<section data-role="content">
+			<h1></h1>
+
+			
+		</section>
+	</div>
+	<div data-role="page" id="man11_adv_basic">
+		<header data-role="header"><h1>шаг 5/5</h1></header>
+		<section data-role="content">
+			<h1></h1>
+
+			
+		</section>
+	</div>
+	<div data-role="page" id="man11_adv_adv">
+		<header data-role="header"><h1>шаг 5/5</h1></header>
+		<section data-role="content">
+			<h1></h1>
+
+			
+		</section>
+	</div>
 
 
 </body>
 
-<script type="text/javascript">
-	var jQT = new $.jQTouch({
-		icon: 'jqtouch.png',
-		statusBar: 'black-translucent',
-		preloadImages: []
-	});
-</script>
 </html>
