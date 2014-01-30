@@ -2,7 +2,7 @@
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "by.e95.minsk"
-        versionCode = "1" 
+        versionCode = "2" 
         version     = "20140130" >
 
 	    <name>Программа тренировок fit4life</name>
@@ -17,8 +17,8 @@
 
 
 	    <preference name="phonegap-version" value="3.1.0" />
-	    <icon src="img/app_icon_128.png" />
-	    <gap:splash src="img/splash_640x960.jpg" />
+	    <icon src="images/app_icon_128.png" />
+	    <gap:splash src="images/splash_640x960.jpg" />
 	    	    
 	    <gap:platform name="android" />
 
