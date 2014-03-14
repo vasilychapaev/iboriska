@@ -2,8 +2,8 @@
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "by.e95.boris_train"
-        versionCode = "3" 
-        version     = "20140130" >
+        versionCode = "4"
+        version     = "20140314" >
 
 	    <name>Программа тренировок fit4life</name>
 	    <description>Алгоритм ТВОЕЙ тренировочной программы ТУТ.
